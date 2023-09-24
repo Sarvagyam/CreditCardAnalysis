@@ -1,10 +1,10 @@
-There are the tables used in the analysis of the data, below a the details about the tables and columns present.
-tables : 5
-card_holder : id, name
-credit_card: card, id_card_holder
-merchant: id, name, id_merchant_category
-merchant_category: id, name
-transactions: id, date, amount, card, id_merchant
+There are the tables used in the analysis of the data, below a the details about the tables and columns present.<br/>
+tables : 5<br/>
+card_holder : id, name<br/>
+credit_card: card, id_card_holder<br/>
+merchant: id, name, id_merchant_category<br/>
+merchant_category: id, name<br/>
+transactions: id, date, amount, card, id_merchant<br/>
 
 Note: 
 1. credit_card and credit card holder have a foreign key : id_card_holder and id
